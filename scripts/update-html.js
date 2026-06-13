@@ -59,6 +59,7 @@ function tabName(f) {
     'embedded-knowledge-map.md': '知识图谱',
     'embedded-lab-guide.md': '动手实验室',
     'embedded-product-guide.md': '产品经理指南',
+  'embedded-cases.md': '案例拆解',
   };
   return map[f] || f.replace(/\\\.md$/, '').replace(/^\\d+[-_]?/, '').replace(/[-_]/g, ' ');
 }
