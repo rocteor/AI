@@ -14,32 +14,31 @@
 </div>
 </header>
 <nav class=tc id=s>
-<div id=toc0 class=ts><a href="#前言为什么硬件-pm-要懂-ai" class="ti tl2" style="padding-left:32px">前言：为什么硬件 PM 要懂 AI</a>
-<a href="#第一章端侧-ai-vs-云侧-ai" class="ti tl2" style="padding-left:32px">第一章：端侧 AI vs 云侧 AI</a>
-<a href="#两种架构的本质区别" class="ti tl3" style="padding-left:48px">两种架构的本质区别</a>
-<a href="#决策树你的产品该选哪个" class="ti tl3" style="padding-left:48px">决策树：你的产品该选哪个</a>
-<a href="#趋势判断pm-必知" class="ti tl3" style="padding-left:48px">趋势判断（PM 必知）</a>
-<a href="#第二章npu-是什么pm-版" class="ti tl2" style="padding-left:32px">第二章：NPU 是什么（PM 版）</a>
-<a href="#一句话定义" class="ti tl3" style="padding-left:48px">一句话定义</a>
-<a href="#npu-的典型应用场景" class="ti tl3" style="padding-left:48px">NPU 的典型应用场景</a>
-<a href="#pm-需要理解的几个限制" class="ti tl3" style="padding-left:48px">PM 需要理解的几个限制</a>
-<a href="#第三章ai-硬件芯片选型" class="ti tl2" style="padding-left:32px">第三章：AI 硬件芯片选型</a>
-<a href="#主流-ai-硬件芯片一览pm-版" class="ti tl3" style="padding-left:48px">主流 AI 硬件芯片一览（PM 版）</a>
-<a href="#成本趋势来自案例拆解" class="ti tl3" style="padding-left:48px">成本趋势（来自案例拆解）</a>
-<a href="#第四章ai-智能摄像头产品拆解" class="ti tl2" style="padding-left:32px">第四章：AI 智能摄像头产品拆解</a>
-<a href="#产品定位" class="ti tl3" style="padding-left:48px">产品定位</a>
-<a href="#方案架构" class="ti tl3" style="padding-left:48px">方案架构</a>
-<a href="#bom-拆解" class="ti tl3" style="padding-left:48px">BOM 拆解</a>
-<a href="#端侧-ai-的竞品价值" class="ti tl3" style="padding-left:48px">端侧 AI 的竞品价值</a>
-<a href="#第五章用-ai-工具加速硬件产品设计" class="ti tl2" style="padding-left:32px">第五章：用 AI 工具加速硬件产品设计</a>
-<a href="#51-pm-为什么应该用-ai-做-ui-设计" class="ti tl3" style="padding-left:48px">5.1 PM 为什么应该用 AI 做 UI 设计</a>
-<a href="#52-ai-设计工具推荐" class="ti tl3" style="padding-left:48px">5.2 AI 设计工具推荐</a>
-<a href="#53-ai-辅助硬件产品设计实战流程" class="ti tl3" style="padding-left:48px">5.3 AI 辅助硬件产品设计实战流程</a>
-<a href="#54-给硬件-pm-的-ai-使用建议" class="ti tl3" style="padding-left:48px">5.4 给硬件 PM 的 AI 使用建议</a>
-<a href="#第六章pm-的-ai-硬件趋势快报" class="ti tl2" style="padding-left:32px">第六章：PM 的 AI 硬件趋势快报</a>
-<a href="#正在发生的-3-个趋势" class="ti tl3" style="padding-left:48px">正在发生的 3 个趋势</a>
-<a href="#pm-的-5-个-ai-硬件判断题" class="ti tl3" style="padding-left:48px">PM 的 5 个 AI 硬件判断题</a>
-<a href="#附录ai-硬件关键词速查" class="ti tl2" style="padding-left:32px">附录：AI 硬件关键词速查</a>
+<div id=toc0 class=ts><a href="#一硬件产品是怎么做出来的" class="ti tl2" style="padding-left:32px">一、硬件产品是怎么做出来的</a>
+<a href="#生产工艺一块电路板的诞生" class="ti tl3" style="padding-left:48px">生产工艺：一块电路板的诞生</a>
+<a href="#工程文档pm-需要看懂的三张图" class="ti tl3" style="padding-left:48px">工程文档：PM 需要看懂的三张图</a>
+<a href="#试产里程碑evt-dvt-pvt-mp" class="ti tl3" style="padding-left:48px">试产里程碑：EVT → DVT → PVT → MP</a>
+<a href="#二核心元器件pm-版" class="ti tl2" style="padding-left:32px">二、核心元器件（PM 版）</a>
+<a href="#计算单元soc-vs-mcu" class="ti tl3" style="padding-left:48px">计算单元：SoC vs MCU</a>
+<a href="#存储三兄弟" class="ti tl3" style="padding-left:48px">存储三兄弟</a>
+<a href="#电源管理ldo-vs-dc-dc-vs-pmic" class="ti tl3" style="padding-left:48px">电源管理：LDO vs DC-DC vs PMIC</a>
+<a href="#三传感器与执行器ai-语音产品重点" class="ti tl2" style="padding-left:32px">三、传感器与执行器（AI 语音产品重点）</a>
+<a href="#31-音频ai-玩具的耳朵和嘴巴" class="ti tl3" style="padding-left:48px">3.1 音频：AI 玩具的"耳朵"和"嘴巴"</a>
+<a href="#32-运动与触摸" class="ti tl3" style="padding-left:48px">3.2 运动与触摸</a>
+<a href="#四通信与连接" class="ti tl2" style="padding-left:32px">四、通信与连接</a>
+<a href="#蓝牙" class="ti tl3" style="padding-left:48px">蓝牙</a>
+<a href="#wifi" class="ti tl3" style="padding-left:48px">WiFi</a>
+<a href="#天线与认证" class="ti tl3" style="padding-left:48px">天线与认证</a>
+<a href="#五嵌入式软件" class="ti tl2" style="padding-left:32px">五、嵌入式软件</a>
+<a href="#系统架构选型" class="ti tl3" style="padding-left:48px">系统架构选型</a>
+<a href="#ota-升级" class="ti tl3" style="padding-left:48px">OTA 升级</a>
+<a href="#低功耗管理" class="ti tl3" style="padding-left:48px">低功耗管理</a>
+<a href="#调试接口pm-也要会用" class="ti tl3" style="padding-left:48px">调试接口（PM 也要会用）</a>
+<a href="#六ai-语音全链路" class="ti tl2" style="padding-left:32px">六、AI 语音全链路</a>
+<a href="#61-asr语音识别-怎么听懂用户说话" class="ti tl3" style="padding-left:48px">6.1 ASR（语音识别）—— 怎么听懂用户说话</a>
+<a href="#62-tts语音合成-怎么说话给用户听" class="ti tl3" style="padding-left:48px">6.2 TTS（语音合成）—— 怎么说话给用户听</a>
+<a href="#63-llm大语言模型-怎么理解用户意图并生成回复" class="ti tl3" style="padding-left:48px">6.3 LLM（大语言模型）—— 怎么理解用户意图并生成回复</a>
+<a href="#附录pm-快速对话指南" class="ti tl2" style="padding-left:32px">附录：PM 快速对话指南</a>
 </div>
 <div id=toc1 class=ts style=display:none><a href="#1-产品概述" class="ti tl2" style="padding-left:32px">1. 产品概述</a>
 <a href="#11-产品定位" class="ti tl3" style="padding-left:48px">1.1 产品定位</a>
@@ -382,566 +381,671 @@
 
 </nav>
 <main class=mn id=m>
-<div id=pane0 class="pn on"><div class=ct><p>﻿# AI 硬件产品经理手册</p>
+<div id=pane0 class="pn on"><div class=ct><p>﻿# AI 语音硬件产品经理手册</p>
 <blockquote>
-<p>从学习资料中整合的 AI + 硬件全景 —— 产品经理需要知道的端侧AI、AI芯片趋势、以及AI如何改变硬件产品设计。</p>
+<p>从知识清单转换 —— 覆盖生产工艺、核心元器件、传感器、通信、嵌入式软件、AI 语音全链路。
+格式为 PM 可读的叙述体，每一项都有&quot;PM 视角&quot;和&quot;关键问题&quot;。</p>
 </blockquote>
 <hr>
-<h2 id="前言为什么硬件-pm-要懂-ai">前言：为什么硬件 PM 要懂 AI</h2>
-<p>AI 正在从&quot;云端大模型&quot;走向&quot;端侧小芯片&quot;。你在做硬件产品时，迟早会遇到这些问题：</p>
-<ul>
-<li>产品要不要带 AI 功能？（还是只是&quot;打着 AI 噱头的普通产品&quot;？）</li>
-<li>AI 计算在设备本地做，还是在云端做？（成本、隐私、延迟的平衡）</li>
-<li>带 AI 的芯片贵多少？值得吗？</li>
-<li>怎么用 AI 工具来加速产品设计（Figma 原型、方案评估）？</li>
-</ul>
-<p>这份手册从学习资料中提取了全部 AI+硬件相关内容，整理成产品经理能直接用的决策参考。</p>
-<hr>
-<h2 id="第一章端侧-ai-vs-云侧-ai">第一章：端侧 AI vs 云侧 AI</h2>
-<h3 id="两种架构的本质区别">两种架构的本质区别</h3>
-<table>
-<thead>
-<tr>
-<th>维度</th>
-<th>端侧 AI（设备本地）</th>
-<th>云侧 AI（服务器）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>硬件要求</strong></td>
-<td>SoC 需要 NPU 或 DSP</td>
-<td>普通芯片就行，视频/数据上传到云端处理</td>
-</tr>
-<tr>
-<td><strong>带宽需求</strong></td>
-<td>只上传结果（几 KB 的告警截图）</td>
-<td>持续上传原始数据（视频流几 Mbps）</td>
-</tr>
-<tr>
-<td><strong>响应延迟</strong></td>
-<td>实时（毫秒级）</td>
-<td>取决于网络（几百毫秒到几秒）</td>
-</tr>
-<tr>
-<td><strong>功耗</strong></td>
-<td>较高（NPU 工作时耗电）</td>
-<td>较低（设备只需编码和上传）</td>
-</tr>
-<tr>
-<td><strong>隐私</strong></td>
-<td>数据不上云，本地处理</td>
-<td>原始数据传到云端处理</td>
-</tr>
-<tr>
-<td><strong>芯片成本</strong></td>
-<td>贵 15-30 元（需要 NPU）</td>
-<td>便宜（普通 MCU/MPU）</td>
-</tr>
-<tr>
-<td><strong>运营成本</strong></td>
-<td>一次性的硬件成本</td>
-<td>持续的云服务费（~5 元/月/设备）</td>
-</tr>
-<tr>
-<td><strong>可升级性</strong></td>
-<td>固件升级可以更新算法</td>
-<td>云端模型随时更新</td>
-</tr>
-</tbody></table>
-<h3 id="决策树你的产品该选哪个">决策树：你的产品该选哪个</h3>
-<pre><code>产品需要 AI 功能吗？
-├── 不 —— 不需要额外考虑，用普通 MCU/MPU
-└── 是 —— 数据需要实时处理吗？延迟要求 &lt; 50ms 吗？
-    ├── 是 → 端侧 AI（必须 NPU，比如人形检测、语音唤醒）
-    └── 否 → 延迟可以容忍 &gt; 500ms 吗？
-        ├── 是 → 云侧 AI（成本更低，模型更灵活）
-        └── 视情况而定 → 混合方案（端侧做初步筛选，云侧做深度分析）
-</code></pre>
-<h3 id="趋势判断pm-必知">趋势判断（PM 必知）</h3>
-<p><strong>2019-2021 年：</strong> 主流是<strong>云侧 AI</strong>。芯片便宜，上传带宽成本低，AI 能力集中部署在云端。</p>
-<p><strong>2022 年后：</strong> 主流转向<strong>端侧 AI</strong>。海思/瑞芯微/Rockchip 等芯片厂商推出了带 NPU 的 SoC，端侧 AI 的成本降到可以接受的程度。同时隐私法规（GDPR/PIPL）越来越严格，用户更倾向于&quot;数据不上云&quot;。</p>
+<h2 id="一硬件产品是怎么做出来的">一、硬件产品是怎么做出来的</h2>
+<h3 id="生产工艺一块电路板的诞生">生产工艺：一块电路板的诞生</h3>
+<p>从设计图纸到拿到一块能工作的电路板，经过三个核心工艺：</p>
+<p><strong>PCB（印制电路板）</strong> —— 就是那块绿色的板子本身，还没有焊接任何元件。PM 需要关心：<strong>几层板</strong>？2 层最便宜但走线受限，4 层贵一倍但 EMC 更好。如果产品要通过 FCC/CE 认证，建议直接上 4 层。</p>
+<p><strong>SMT（表面贴装技术）</strong> —— 用贴片机自动把元器件焊到 PCB 上。这是主流工艺。极少数特殊器件（大型接插件、变压器等）因为不能过回流焊炉，要走 <strong>DIP（插件工艺）</strong> —— 手工或波峰焊。</p>
+<p><strong>PCBA（成品电路板）</strong> —— SMT + DIP 全部完成后，就是贴好所有元器件的成品板子，叫 PCBA。</p>
 <blockquote>
-<p><strong>PM 要记住：</strong> 技术趋势会改变产品架构。2019 年做端侧 AI 是&quot;不切实际&quot;，2023 年做云侧 AI 是&quot;不跟趋势&quot;。产品定义阶段就要想清楚未来 2-3 年的技术路线。</p>
+<p><strong>PM 视角：</strong> 如果工程师说&quot;这个器件要 DIP&quot;，意味着它不能在主流 SMT 产线上自动焊接，会增加人工成本。如果是大客户，可以要求供应商换成 SMT 兼容的物料。</p>
+<p><strong>关键问题：</strong> 为什么这个器件不能 SMT，要走 DIP？换一个 SMT 兼容的型号行不行？</p>
 </blockquote>
-<hr>
-<h2 id="第二章npu-是什么pm-版">第二章：NPU 是什么（PM 版）</h2>
-<h3 id="一句话定义">一句话定义</h3>
-<p>NPU（神经网络处理器）是一种专门为 AI 推理设计的处理器。和 CPU/GPU 的区别：</p>
+<h3 id="工程文档pm-需要看懂的三张图">工程文档：PM 需要看懂的三张图</h3>
 <table>
 <thead>
 <tr>
-<th>处理器</th>
-<th>擅长</th>
-<th>不擅长</th>
+<th>文档</th>
+<th>是什么</th>
+<th>PM 怎么看</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>CPU</td>
-<td>逻辑运算、分支判断、串行任务</td>
-<td>并行计算（矩阵运算）</td>
+<td><strong>BOM（物料清单）</strong></td>
+<td>产品全部元器件的型号、规格、数量、供应商清单</td>
+<td>这是产品成本的核心——看 BOM 就知道哪里最贵、有没有独家供应</td>
 </tr>
 <tr>
-<td>GPU</td>
-<td>图形渲染、并行计算</td>
-<td>小批量、低延迟任务</td>
+<td><strong>Schematic（原理图）</strong></td>
+<td>电路连接关系的逻辑图纸</td>
+<td>不需要读懂每条线，但要能认出电源模块/MCU/传感器这些大块，才能和 EE 沟通</td>
 </tr>
 <tr>
-<td>NPU</td>
-<td><strong>神经网络推理</strong>（卷积、矩阵乘加）</td>
-<td>通用计算</td>
-</tr>
-<tr>
-<td>DSP</td>
-<td>数字信号处理（音频/通信编解码）</td>
-<td>非信号类任务</td>
+<td><strong>PCB Layout</strong></td>
+<td>原理图变成物理走线的工程文件</td>
+<td>PM 不需要看，但要知道 Layout 完成后不能再改电路——改一次 = 2 周 + 几千块</td>
 </tr>
 </tbody></table>
-<p>NPU 内部有成百上千个乘加单元（MAC），可以在一拍内完成大量矩阵运算——这正是神经网络的核心计算。</p>
-<h3 id="npu-的典型应用场景">NPU 的典型应用场景</h3>
+<h3 id="试产里程碑evt-dvt-pvt-mp">试产里程碑：EVT → DVT → PVT → MP</h3>
+<p>硬件产品从设计到量产，经过四个官方里程碑：</p>
 <table>
 <thead>
 <tr>
-<th>场景</th>
-<th>说明</th>
-<th>典型芯片</th>
+<th>阶段</th>
+<th>全称</th>
+<th>做什么</th>
+<th>PM 要关注什么</th>
 </tr>
 </thead>
 <tbody><tr>
-<td><strong>人形检测</strong></td>
-<td>摄像头本地识别画面中是否有人</td>
-<td>海思 Hi3516EV300、瑞芯微 RV1106</td>
+<td><strong>EVT</strong></td>
+<td>工程验证</td>
+<td>首轮功能样机，验证基本原理是否可行</td>
+<td>核心功能能不能跑通？不要纠结外观</td>
 </tr>
 <tr>
-<td><strong>语音唤醒</strong></td>
-<td>设备端持续监听&quot;小爱同学/Hey Siri&quot;</td>
-<td>AI 语音芯片（如 CI1006）</td>
+<td><strong>DVT</strong></td>
+<td>设计验证</td>
+<td>设计冻结后的小批量试产</td>
+<td>功能完整吗？可靠性测试过了吗？需要改 Layout 吗？</td>
 </tr>
 <tr>
-<td><strong>人脸识别</strong></td>
-<td>门锁/门禁本地比对，不上传照片</td>
-<td>带 NPU 的 MCU 或 SoC</td>
+<td><strong>PVT</strong></td>
+<td>生产验证</td>
+<td>量产前的工艺验证</td>
+<td>产线能稳定产出合格品吗？良率多少？</td>
 </tr>
 <tr>
-<td><strong>降噪</strong></td>
-<td>麦克风阵列的 AI 降噪算法</td>
-<td>DNN 降噪芯片</td>
-</tr>
-<tr>
-<td><strong>目标检测</strong></td>
-<td>安防摄像头里的宠物/车辆/移动检测</td>
-<td>RV1103/RV1106</td>
-</tr>
-<tr>
-<td><strong>关键词识别</strong></td>
-<td>离线语音命令控制（开灯/关空调）</td>
-<td>AI 语音识别芯片</td>
-</tr>
-</tbody></table>
-<h3 id="pm-需要理解的几个限制">PM 需要理解的几个限制</h3>
-<ol>
-<li><strong>NPU 不是万能的</strong> —— 它只擅长推理，不擅长训练。训练还是在云端 GPU/TPU 上完成的，训练好的模型（如 TensorFlow Lite / ONNX）部署到端侧 NPU 上运行</li>
-<li><strong>模型需要量化</strong> —— 云端模型是 32 位浮点数，端侧 NPU 通常用 8 位整数（INT8）。量化会影响精度，但换来了更低的内存和功耗</li>
-<li><strong>NPU 的算力有限</strong> —— 端侧 NPU 的算力通常只有 0.5-2 TOPS（万亿次运算/秒），高通旗舰手机 NPU 的几十 TOPS，服务器 GPU 几百 TOPS。端侧只能跑轻量级模型</li>
-</ol>
-<p><strong>对话示例：</strong></p>
-<blockquote>
-<p>工程师：这个模型在服务器上精度 95%，但量化到 INT8 后在芯片上只有 88% 了。
-PM：88% 够用吗？用户场景里，漏检率每提升 1% 会影响多少退货率？</p>
-</blockquote>
-<hr>
-<h2 id="第三章ai-硬件芯片选型">第三章：AI 硬件芯片选型</h2>
-<h3 id="主流-ai-硬件芯片一览pm-版">主流 AI 硬件芯片一览（PM 版）</h3>
-<table>
-<thead>
-<tr>
-<th>芯片</th>
-<th>定位</th>
-<th>NPU 算力</th>
-<th>价格</th>
-<th>典型产品</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>海思 Hi3516EV300</strong></td>
-<td>AI 摄像头 SoC</td>
-<td>0.5 TOPS</td>
-<td>~45 元</td>
-<td>家庭摄像头</td>
-</tr>
-<tr>
-<td><strong>瑞芯微 RV1106/RV1103</strong></td>
-<td>AI 摄像头 SoC</td>
-<td>0.5 TOPS</td>
-<td>~30 元</td>
-<td>安防摄像头（2023 新方案）</td>
-</tr>
-<tr>
-<td><strong>瑞芯微 RK3588</strong></td>
-<td>高端 AI SoC</td>
-<td>6 TOPS</td>
-<td>~200 元</td>
-<td>智能 NVR、AI 盒子</td>
-</tr>
-<tr>
-<td><strong>晶晨 A311D</strong></td>
-<td>智能音箱 SoC</td>
-<td>5 TOPS</td>
-<td>~80 元</td>
-<td>智能音箱、带屏设备</td>
-</tr>
-<tr>
-<td><strong>全志 V833</strong></td>
-<td>AI 视觉 SoC</td>
-<td>1 TOPS</td>
-<td>~35 元</td>
-<td>扫拖机器人</td>
-</tr>
-<tr>
-<td><strong>爱芯元智 AX630A</strong></td>
-<td>AI 视觉 SoC</td>
-<td>1.8 TOPS</td>
-<td>~40 元</td>
-<td>AI 摄像头、门锁</td>
-</tr>
-<tr>
-<td><strong>算能 CV1821</strong></td>
-<td>AI 视觉 SoC</td>
-<td>1 TOPS</td>
-<td>~25 元</td>
-<td>低端 AI 摄像头</td>
-</tr>
-<tr>
-<td><strong>ESP32-S3</strong></td>
-<td>AI 物联网 MCU</td>
-<td>轻量级</td>
-<td>~15 元</td>
-<td>语音唤醒、简单分类</td>
-</tr>
-</tbody></table>
-<h3 id="成本趋势来自案例拆解">成本趋势（来自案例拆解）</h3>
-<pre><code>AI摄像头（2020）  海思 Hi3516 + Linux    BOM ~160元  零售 ~299元
-AI摄像头（2023）  瑞芯微 RV1106 + Linux  BOM ~120元  零售 ~199元
-
-两年时间，AI 摄像头的 BOM 成本下降了 25%，零售价下降了 33%。
-</code></pre>
-<p><strong>主要原因是：</strong> 国产 AI 芯片厂商的竞争（瑞芯微、全志、算能、爱芯元智），把带 NPU 的 SoC 价格从 50+ 元打到了 25-30 元区间。</p>
-<p><strong>PM 要看到的机会：</strong> 当端侧 AI 芯片的成本降到 MCU + 独立 WiFi 模组的价格区间时（约 25 元），很多传统 IoT 产品可以低成本地加上 AI 功能。比如：</p>
-<ul>
-<li>智能灯 + 语音识别（本地离线唤醒）</li>
-<li>智能门锁 + 人脸识别（本地比对，不上传照片）</li>
-<li>智能插座 + 功率识别（AI 识别接了什么家电）</li>
-<li>烟雾报警器 + AI 区分火灾烟雾和厨房油烟（减少误报）</li>
-</ul>
-<hr>
-<h2 id="第四章ai-智能摄像头产品拆解">第四章：AI 智能摄像头产品拆解</h2>
-<h3 id="产品定位">产品定位</h3>
-<ul>
-<li>产品：AI 人形检测智能摄像头，带云存储</li>
-<li>目标售价：199-299 元</li>
-<li>目标用户：家庭安防、宠物监控、老人看护</li>
-<li><strong>AI 功能：</strong> 本地人形检测，不上传视频，只上传告警截图</li>
-</ul>
-<h3 id="方案架构">方案架构</h3>
-<pre><code>┌─────────────────────────────────────────────────┐
-│             主控 SoC（海思 Hi3516EV300）          │
-│                    Linux 系统                     │
-│  ┌──────────┐ ┌────────┐ ┌──────────┐           │
-│  │ CMOS 传感器│ │ Wi-Fi │ │ NPU(神经网络)│          │
-│  │ (SC2006) │ │ 模组   │ │  人形检测  │           │
-│  └──────────┘ └────────┘ └──────────┘           │
-└─────────────────────────────────────────────────┘
-</code></pre>
-<p>与普通摄像头最大的区别在于 NPU 模块——它可以直接在设备端运行神经网络推理。</p>
-<h3 id="bom-拆解">BOM 拆解</h3>
-<table>
-<thead>
-<tr>
-<th>部件</th>
-<th>说明</th>
-<th>单价</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>SoC（带 NPU）</td>
-<td>Hi3516EV300（含 256MB DDR）</td>
-<td>45 元</td>
-</tr>
-<tr>
-<td>CMOS 传感器</td>
-<td>SC2006（2MP）</td>
-<td>15 元</td>
-</tr>
-<tr>
-<td>镜头</td>
-<td>F1.6 3.6mm</td>
-<td>8 元</td>
-</tr>
-<tr>
-<td>WiFi 模组</td>
-<td>RTL8188（USB 接口）</td>
-<td>15 元</td>
-</tr>
-<tr>
-<td>Flash</td>
-<td>16MB SPI NOR（存固件）</td>
-<td>5 元</td>
-</tr>
-<tr>
-<td>红外 LED 板</td>
-<td>850nm 红外灯 + 光敏电阻</td>
-<td>5 元</td>
-</tr>
-<tr>
-<td>电机</td>
-<td>水平+垂直云台电机</td>
-<td>12 元</td>
-</tr>
-<tr>
-<td>PCB + 电源 + 外壳</td>
-<td>—</td>
-<td>30 元</td>
-</tr>
-<tr>
-<td><strong>BOM 合计</strong></td>
-<td></td>
-<td><strong>~140 元</strong></td>
-</tr>
-<tr>
-<td><strong>零售价</strong></td>
-<td></td>
-<td><strong>~199-299 元</strong></td>
-</tr>
-</tbody></table>
-<h3 id="端侧-ai-的竞品价值">端侧 AI 的竞品价值</h3>
-<table>
-<thead>
-<tr>
-<th>用户关心的问题</th>
-<th>端侧 AI 方案</th>
-<th>云侧方案</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>视频上传到服务器安全吗？</td>
-<td>✅ 不上传，本地处理</td>
-<td>❌ 持续上传到云服务器</td>
-</tr>
-<tr>
-<td>没网络还能检测吗？</td>
-<td>✅ 断网也不影响</td>
-<td>❌ 没网就变普通摄像头</td>
-</tr>
-<tr>
-<td>检测响应快不快？</td>
-<td>✅ 实时，毫秒级</td>
-<td>⚠️ 取决于网络延迟</td>
-</tr>
-<tr>
-<td>每月要交多少云服务费？</td>
-<td>💰 0 元</td>
-<td>💸 约 5-10 元/月</td>
+<td><strong>MP</strong></td>
+<td>量产</td>
+<td>正式批量生产</td>
+<td>供应链稳定吗？产能够吗？</td>
 </tr>
 </tbody></table>
 <blockquote>
-<p><strong>PM 学到的东西：</strong></p>
-<ol>
-<li>端侧 AI 的卖点不是&quot;AI 更强&quot;——而是<strong>隐私、离线可用、无需月费</strong>。这些才是用户愿意多花钱的理由。</li>
-<li>参数表上的&quot;夜视 10 米&quot;不骗人但可能误导人——低照度下的真实画质才是用户体验分界线。如果&quot;夜视效果&quot;是核心卖点，不要在传感器上省钱。</li>
-</ol>
+<p><strong>PM 视角：</strong> 这四个阶段是硬件 PM 的&quot;节气&quot;。不要在 EVT 阶段纠结外观，不要在 DVT 阶段还改电路。<strong>每个阶段结束前不要推进到下一个。</strong></p>
 </blockquote>
 <hr>
-<h2 id="第五章用-ai-工具加速硬件产品设计">第五章：用 AI 工具加速硬件产品设计</h2>
-<h3 id="51-pm-为什么应该用-ai-做-ui-设计">5.1 PM 为什么应该用 AI 做 UI 设计</h3>
-<p>你不需要成为设计师，但你需要能快速产出&quot;够用的交互原型&quot;给开发参考。AI 可以帮你：</p>
-<ol>
-<li>从文字描述直接生成 UI 页面布局</li>
-<li>提供多种设计方案供选择</li>
-<li>快速产出设计规范（配色、字体、间距）</li>
-<li>为硬件配套 App、产品面板、设备屏幕生成原型</li>
-</ol>
-<h3 id="52-ai-设计工具推荐">5.2 AI 设计工具推荐</h3>
+<h2 id="二核心元器件pm-版">二、核心元器件（PM 版）</h2>
+<h3 id="计算单元soc-vs-mcu">计算单元：SoC vs MCU</h3>
 <table>
 <thead>
 <tr>
-<th>工具</th>
-<th>适合场景</th>
-<th>费用</th>
-<th>产出格式</th>
+<th></th>
+<th>SoC（系统级芯片）</th>
+<th>MCU（微控制器）</th>
 </tr>
 </thead>
 <tbody><tr>
-<td><strong>UIzard</strong></td>
-<td>文字 → UI，自动生成可编辑 Figma 文件</td>
-<td>免费有额度</td>
-<td>Figma 文件</td>
+<td>典型型号</td>
+<td>全志 V833、瑞芯微 RV1106、高通 Wear</td>
+<td>STM32、ESP32</td>
 </tr>
 <tr>
-<td><strong>Galileo AI</strong></td>
-<td>文字描述生成高保真 UI</td>
-<td>付费（试用期免费）</td>
-<td>Figma 文件</td>
+<td>算力</td>
+<td>高（可以跑 Linux + AI）</td>
+<td>低（跑裸机或 RTOS）</td>
 </tr>
 <tr>
-<td><strong>Midjourney / DALL-E</strong></td>
-<td>生成产品概念图、外观设计灵感</td>
-<td>付费</td>
-<td>图片</td>
+<td>典型产品</td>
+<td>AI 摄像头、智能音箱、AI 玩具</td>
+<td>智能插座、遥控器、传感器</td>
 </tr>
 <tr>
-<td><strong>Claude / GPT-4</strong></td>
-<td>生成设计规范、交互流程文案</td>
-<td>有额度限制</td>
-<td>文字 + 布局描述</td>
+<td>功耗</td>
+<td>较高</td>
+<td>低（μA 级待机）</td>
+</tr>
+<tr>
+<td>开发复杂度</td>
+<td>高（需要 Linux 驱动团队）</td>
+<td>低</td>
 </tr>
 </tbody></table>
-<h3 id="53-ai-辅助硬件产品设计实战流程">5.3 AI 辅助硬件产品设计实战流程</h3>
-<p><strong>场景：</strong> 智能空气净化器的配套 App 主控制页</p>
-<p><strong>Step 1：写 Prompt</strong></p>
-<pre><code>设计一个智能空气净化器的 App 控制页面。
-
-设备：智能空气净化器
-目标用户：家庭用户，25-45 岁，关注空气质量
-
-核心功能：
-1. 实时空气质量显示（PM2.5 / 温度 / 湿度）
-2. 开关控制 + 风速调节（低/中/高/自动）
-3. 定时开关机设置
-4. 滤芯寿命提醒
-
-设计风格：简洁、干净、信息优先
-主要色彩：白底 + 绿色点缀（天然、环保的感觉）
-
-请生成页面布局描述，从上到下包括每个区域的内容和交互方式。
-</code></pre>
-<p><strong>Step 2：从 AI 回复中提取设计信息</strong></p>
-<p>AI 会回复详细的页面布局。提取关键信息后，你得到的是一个清晰的页面结构：</p>
-<pre><code>顶部：状态栏（在线/WiFi信号/当前模式）
-主区域：圆形仪表盘显示 PM2.5 数值 + 评级
-控制区：开关 + 风速四档选择
-次要功能：定时设置（轻量入口）+ 滤芯寿命（进度条）
-底部导航：首页/设备/设置
-</code></pre>
-<p><strong>Step 3：在 Figma 中实现</strong></p>
-<ol>
-<li>创建 iPhone Frame</li>
-<li>按 AI 给出的布局从上到下排布</li>
-<li>用 Auto Layout 控制间距</li>
-<li>灰度线框图就够用了（开发不需要高保真）</li>
-</ol>
-<p><strong>整个过程：Prompt（5 分钟）+ Figma（25 分钟）≈ 30 分钟出一个可交付的页面原型。</strong></p>
-<h3 id="54-给硬件-pm-的-ai-使用建议">5.4 给硬件 PM 的 AI 使用建议</h3>
-<ul>
-<li><strong>Prompt 质量决定产出质量。</strong> 给 AI 描述时，要把产品功能、目标用户、设计风格、色彩偏好都说清楚</li>
-<li><strong>灰度线框图就够了。</strong> 硬件产品的配套 App 通常只有 5-15 个页面，灰度线框图足够给开发&quot;这个页面长什么样、按了这个按钮去哪&quot;的理解。高保真等产品验证通过后再找设计师精修</li>
-<li><strong>AI 产出的布局可以帮 PM 快速验证功能优先级。</strong> 如果你说不清哪个功能该放在最显眼的位置，把功能列表丢给 AI，看它怎么排——AI 的布局选择可以作为功能优先级讨论的起点</li>
-</ul>
-<hr>
-<h2 id="第六章pm-的-ai-硬件趋势快报">第六章：PM 的 AI 硬件趋势快报</h2>
-<h3 id="正在发生的-3-个趋势">正在发生的 3 个趋势</h3>
-<p><strong>趋势 1：端侧 AI 芯片价格持续下降</strong></p>
-<ul>
-<li>2020 年：带 NPU 的 SoC &gt; 50 元</li>
-<li>2023 年：带 NPU 的 SoC 最低 25 元</li>
-<li>预计 2025 年：带轻量级 AI 加速的 MCU 进入 15 元区间</li>
-<li><strong>PM 要做的：</strong> 产品规划时考虑 1-2 年后的芯片价格，提前布局</li>
-</ul>
-<p><strong>趋势 2：从&quot;中央 AI&quot;到&quot;分布式 AI&quot;</strong></p>
-<ul>
-<li>云端大模型做训练，端侧做推理</li>
-<li>端侧+云侧混合架构将成为主流</li>
-<li>端侧做低延迟、保护隐私的初步处理，云侧做复杂分析和持续学习</li>
-<li><strong>PM 要做的：</strong> 不要想着&quot;纯端侧&quot;或&quot;纯云侧&quot;，而是想&quot;哪些数据在端侧处理，哪些上传&quot;</li>
-</ul>
-<p><strong>趋势 3：AI 从&quot;卖点&quot;变成&quot;标配&quot;</strong></p>
-<ul>
-<li>2020 年：产品有 AI 功能 → 高端差异化卖点</li>
-<li>2025 年：产品没有 AI 功能 → 不够智能、被竞品淘汰</li>
-<li><strong>PM 要做的：</strong> 不是&quot;要不要加 AI&quot;，而是&quot;什么时候、以什么成本加入 AI&quot;</li>
-</ul>
-<h3 id="pm-的-5-个-ai-硬件判断题">PM 的 5 个 AI 硬件判断题</h3>
+<blockquote>
+<p><strong>PM 视角：</strong> SoC 和 MCU 之间越来越模糊。ESP32-S3（MCU）也能跑轻量 AI，瑞芯微 RV1106（SoC 带 NPU）现在不到 30 元。选 SoC 还是 MCU，核心看：<strong>需不需要跑 Linux？需不需要 AI NPU？</strong></p>
+</blockquote>
+<h3 id="存储三兄弟">存储三兄弟</h3>
 <table>
 <thead>
 <tr>
-<th>判断</th>
-<th>对错</th>
-<th>分析</th>
+<th>类型</th>
+<th>存什么</th>
+<th>特点</th>
+<th>PM 要懂</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>&quot;AI 功能会显著提高产品售价&quot;</td>
-<td>⚠️ 看情况</td>
-<td>高端产品加 AI 可以做溢价；中低端产品要看芯片成本能否控制在 BOM 的 15% 以内</td>
+<td><strong>Flash（闪存）</strong></td>
+<td>代码、语音资源、AI 模型</td>
+<td>掉电不丢，分 NOR（存代码）和 NAND（存数据）</td>
+<td>Flash 容量直接决定 OTA 策略——升级包放不放得下？语音资源够不够？</td>
 </tr>
 <tr>
-<td>&quot;端侧 AI 比云侧 AI 更好&quot;</td>
-<td>❌</td>
-<td>两者各有优劣。数据隐私和低延迟用端侧，灵活性和大模型用云侧。<strong>混合方案最稳妥</strong></td>
+<td><strong>RAM（运行内存）</strong></td>
+<td>运行时数据、AI 推理缓冲区</td>
+<td>掉电丢失</td>
+<td>RAM 不足 = 系统卡顿或崩溃。AI 推理需要额外 RAM</td>
 </tr>
 <tr>
-<td>&quot;带 AI 的芯片开发周期更长&quot;</td>
-<td>✅</td>
-<td>是的。NPU 的驱动、模型量化和部署、算法调优，通常要多 2-4 个月的研发周期</td>
-</tr>
-<tr>
-<td>&quot;用户愿意为 AI 功能多付钱&quot;</td>
-<td>⚠️</td>
-<td>用户不是为&quot;AI&quot;付钱，而是为<strong>更好的体验</strong>付钱。&quot;人形检测&quot;比&quot;AI 人形检测&quot;更能说服用户</td>
-</tr>
-<tr>
-<td>&quot;AI 硬件产品不需要云服务&quot;</td>
-<td>❌</td>
-<td>即使端侧 AI 推理在本地，OTA 升级模型、告警推送、远程查看还是需要云服务。纯离线的 AI 产品很少</td>
+<td><strong>EEPROM/NVS</strong></td>
+<td>用户配置、WiFi 密码、校准参数</td>
+<td>掉电不丢，可频繁读写</td>
+<td>用户设置、WiFi 密码、传感器校准数据存在这里</td>
 </tr>
 </tbody></table>
-<hr>
-<h2 id="附录ai-硬件关键词速查">附录：AI 硬件关键词速查</h2>
+<blockquote>
+<p><strong>关键问题：</strong> Flash 还剩多少空间？OTA 升级包能不能放得下？</p>
+</blockquote>
+<h3 id="电源管理ldo-vs-dc-dc-vs-pmic">电源管理：LDO vs DC-DC vs PMIC</h3>
 <table>
 <thead>
 <tr>
-<th>术语</th>
-<th>一句话解释</th>
+<th></th>
+<th>LDO（线性稳压）</th>
+<th>DC-DC（开关电源）</th>
+<th>PMIC（电源管理芯片）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>效率</strong></td>
+<td>低（&quot;多余的电压烧成热量&quot;）</td>
+<td>高（85-95%）</td>
+<td>中到高</td>
+</tr>
+<tr>
+<td><strong>噪声</strong></td>
+<td>低（干净）</td>
+<td>有纹波</td>
+<td>取决于内部设计</td>
+</tr>
+<tr>
+<td><strong>成本</strong></td>
+<td>低（几毛钱）</td>
+<td>中（2-5 元）</td>
+<td>高（5-30 元）</td>
+</tr>
+<tr>
+<td><strong>典型场景</strong></td>
+<td>模拟电路供电、低功耗待机</td>
+<td>CPU 核心供电、大电流负载</td>
+<td>SoC 配套的多路电源</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>PM 视角：</strong> 电池供电的产品，DCDC 是主流，但 DCDC 输出的纹波会影响 WiFi/BT 灵敏度。所以常见做法是 <strong>DCDC 降压到 3.6V 附近 → LDO 二次稳压到 3.3V 给射频模块</strong>——兼顾效率和噪声。</p>
+</blockquote>
+<hr>
+<h2 id="三传感器与执行器ai-语音产品重点">三、传感器与执行器（AI 语音产品重点）</h2>
+<h3 id="31-音频ai-玩具的quot耳朵quot和quot嘴巴quot">3.1 音频：AI 玩具的&quot;耳朵&quot;和&quot;嘴巴&quot;</h3>
+<p><strong>麦克风（耳朵）：</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>输出信号</th>
+<th>特点</th>
 <th>PM 要知道</th>
 </tr>
 </thead>
 <tbody><tr>
-<td><strong>NPU</strong></td>
-<td>专为神经网络设计的处理器，比 CPU 快 10-100 倍</td>
-<td>做端侧 AI 的芯片必须带 NPU</td>
+<td>模拟麦克风</td>
+<td>模拟电压信号</td>
+<td>需要额外的 ADC 和放大电路</td>
+<td>成本低，但设计复杂</td>
 </tr>
 <tr>
-<td><strong>TOPS</strong></td>
-<td>NPU 的算力单位（万亿次/秒）</td>
-<td>轻量级 0.5-2 TOPS，消费级 10-50 TOPS</td>
+<td>数字麦克风（MEMS）</td>
+<td>PDM/I2S 数字信号</td>
+<td>内置 ADC，抗干扰好，&quot;即插即用&quot;</td>
+<td><strong>AI 产品首选</strong>，主流方案</td>
+</tr>
+</tbody></table>
+<p><strong>核心参数：拾音距离</strong></p>
+<blockquote>
+<p><strong>PM 视角：</strong> 拾音距离直接决定产品使用场景。单麦 ≈ 1-2 米，双麦阵列 ≈ 3-5 米，四麦阵列 ≈ 5 米以上。如果 AI 玩具要&quot;在房间另一边叫它也能响应&quot;，需要双麦或四麦 + 降噪算法。</p>
+<p><strong>关键问题：</strong> 产品预期的交互距离是多少米？需要几个麦克风？</p>
+</blockquote>
+<p><strong>扬声器（嘴巴）：</strong></p>
+<p>关键参数：阻抗（通常 4Ω/8Ω）、功率（决定了音量大小和耗电）、频响范围（决定了音质下限）。</p>
+<p><strong>AEC（回声消除）</strong>——消除扬声器播放的声音被麦克风&quot;收回&quot;的问题。没有 AEC 的话，设备和用户对话时会听到自己发出的声音，形成刺耳的回声甚至啸叫。</p>
+<blockquote>
+<p><strong>PM 视角：</strong> AEC 是 AI 语音产品的<strong>刚需</strong>，不是可选项。没有 AEC，语音交互体验就是灾难。</p>
+</blockquote>
+<h3 id="32-运动与触摸">3.2 运动与触摸</h3>
+<table>
+<thead>
+<tr>
+<th>传感器</th>
+<th>做什么</th>
+<th>AI 玩具里的用法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>IMU（惯性测量单元）</strong></td>
+<td>检测加速度和姿态</td>
+<td>摇晃唤醒、摔落检测、姿态互动（&quot;把它倒过来就静音&quot;）</td>
 </tr>
 <tr>
-<td><strong>端侧推理</strong></td>
-<td>在设备本地运行 AI 模型</td>
-<td>响应快、隐私好、无网络可用</td>
+<td><strong>电容触摸</strong></td>
+<td>无机械按键的触摸感应</td>
+<td>头顶触摸、耳朵触摸交互</td>
 </tr>
 <tr>
-<td><strong>模型量化</strong></td>
-<td>把大模型压缩成端侧可以跑的版本</td>
-<td>精度会下降 3-10%，但体积和耗电大幅降低</td>
+<td><strong>振动马达</strong></td>
+<td>触觉反馈</td>
+<td>唤醒确认、表情互动、闹钟</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>PM 视角：</strong> IMU 是 AI 玩具最被低估的传感器。一个好的姿态交互（比如&quot;举起来就对话&quot;、&quot;扣下去就静音&quot;）可以大幅提升产品的&quot;智能感&quot;。不需要额外加芯片——大多数 SoC 都有 I2C/SPI 接口接 IMU，BOM 成本增加约 3-8 元。</p>
+</blockquote>
+<hr>
+<h2 id="四通信与连接">四、通信与连接</h2>
+<h3 id="蓝牙">蓝牙</h3>
+<table>
+<thead>
+<tr>
+<th>蓝牙类型</th>
+<th>用途</th>
+<th>PM 要知道</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>BLE（低功耗蓝牙）</strong></td>
+<td>配网、传输传感器数据、低功耗通信</td>
+<td>适合电池供电设备</td>
 </tr>
 <tr>
-<td><strong>OTA 模型升级</strong></td>
-<td>通过网络更新设备端的 AI 模型</td>
-<td>产品上市后还能持续改进 AI 能力</td>
+<td><strong>经典蓝牙（Classic）</strong></td>
+<td>音频传输（A2DP）、串行通信（SPP）</td>
+<td>如果产品要播放手机音乐，<strong>必须用经典蓝牙</strong>或双模芯片</td>
 </tr>
 <tr>
-<td><strong>TensorFlow Lite</strong></td>
-<td>Google 的端侧 AI 框架</td>
-<td>最主流，大部分 NPU 都支持</td>
+<td><strong>蓝牙配网</strong></td>
+<td>通过 BLE 把 WiFi 密码传给设备</td>
+<td>比 AP 模式（设备开热点）成功率高得多，<strong>AI 产品首选配网方式</strong></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>关键问题：</strong> 如果产品需要蓝牙播放音乐，确认芯片是否支持经典蓝牙（A2DP）。BLE 不传音频。</p>
+</blockquote>
+<h3 id="wifi">WiFi</h3>
+<table>
+<thead>
+<tr>
+<th>WiFi 模式</th>
+<th>做什么</th>
+<th>PM 要知道</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>STA 模式</strong></td>
+<td>设备连路由器（常规方式）</td>
+<td>大部分产品的正常模式</td>
 </tr>
 <tr>
-<td><strong>ONNX</strong></td>
-<td>开放的模型交换格式</td>
-<td>如果你不确定选哪个框架，选 ONNX 兼容性最好</td>
+<td><strong>AP 模式</strong></td>
+<td>设备自己开热点</td>
+<td>配网降级方案——用户先连设备热点，再告诉它 WiFi 密码</td>
 </tr>
 <tr>
-<td><strong>CNN/RNN/Transformer</strong></td>
-<td>不同类型神经网络架构</td>
-<td>PM 不需要深究，知道不同架构适合不同任务就行</td>
+<td><strong>低功耗模式</strong></td>
+<td>Modem Sleep / Light Sleep</td>
+<td>WiFi 芯片的省电模式</td>
+</tr>
+<tr>
+<td><strong>802.11 b/g/n</strong></td>
+<td>n 是当下主流</td>
+<td>2025 年不建议选只支持 b/g 的芯片</td>
+</tr>
+</tbody></table>
+<h3 id="天线与认证">天线与认证</h3>
+<table>
+<thead>
+<tr>
+<th>天线类型</th>
+<th>成本</th>
+<th>性能</th>
+<th>适用场景</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>PCB 天线</strong></td>
+<td>几乎 0 元</td>
+<td>一般</td>
+<td>对成本敏感的产品</td>
+</tr>
+<tr>
+<td><strong>陶瓷天线</strong></td>
+<td>1-3 元</td>
+<td>较好</td>
+<td>小型化、性能有要求的产品</td>
+</tr>
+<tr>
+<td><strong>IPX 座子 + 外置天线</strong></td>
+<td>3-5 元</td>
+<td>最好</td>
+<td>信号敏感的产品，增加组装工序</td>
+</tr>
+</tbody></table>
+<p><strong>关于认证：</strong> 在中国销售带无线功能的产品，必须通过 <strong>SRRC 认证</strong>（无线电发射设备型号核准）。</p>
+<blockquote>
+<p><strong>PM 视角：</strong> SRRC 认证周期 4-8 周，费用约 2-5 万元，要在项目计划里提前留出。<strong>不过 SRRC 不能在中国市场销售。</strong></p>
+<p><strong>关键问题：</strong> 为什么选陶瓷天线而不是 PCB 天线？信号余量够不够？</p>
+</blockquote>
+<hr>
+<h2 id="五嵌入式软件">五、嵌入式软件</h2>
+<h3 id="系统架构选型">系统架构选型</h3>
+<table>
+<thead>
+<tr>
+<th>方案</th>
+<th>复杂度</th>
+<th>适用场景</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Bare-metal（裸机）</strong></td>
+<td>低</td>
+<td>功能简单的产品（插座、遥控器）</td>
+</tr>
+<tr>
+<td><strong>RTOS（实时操作系统）</strong></td>
+<td>中</td>
+<td>需要多任务的 IoT 产品</td>
+</tr>
+<tr>
+<td><strong>嵌入式 Linux</strong></td>
+<td>高</td>
+<td>需要 AI/网络/UI 的复杂产品</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>PM 视角：</strong> AI 语音产品（需要 ASR/TTS/LLM 的）几乎<strong>必然走嵌入式 Linux</strong>，因为 AI 模型、网络协议栈、音频链路都需要操作系统管理。RTOS 虽然功耗更低，但跑不了复杂的 AI 推理。</p>
+</blockquote>
+<h3 id="ota-升级">OTA 升级</h3>
+<table>
+<thead>
+<tr>
+<th>OTA 方式</th>
+<th>做什么</th>
+<th>PM 要知道</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>全量 OTA</strong></td>
+<td>下载完整固件包</td>
+<td>简单直接，但包体大</td>
+</tr>
+<tr>
+<td><strong>差分 OTA（Delta OTA）</strong></td>
+<td>只传输新旧版本差异部分</td>
+<td>包体小 50-90%，节省用户流量</td>
+</tr>
+<tr>
+<td><strong>AB 分区（A/B System）</strong></td>
+<td>两套分区，写备用区，失败回滚</td>
+<td><strong>最安全的 OTA 方案</strong>——升级失败不会变砖</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>PM 视角：</strong> OTA 是 AI 产品&quot;出厂后还能进化&quot;的能力基础。模型更新、 Prompt 优化、安全补丁——全靠 OTA。<strong>没有 OTA 的产品，出厂后体验就锁死了。</strong></p>
+<p><strong>关键问题：</strong> Bootloader 出问题怎么办？OTA 升级中断电了怎么办？</p>
+</blockquote>
+<h3 id="低功耗管理">低功耗管理</h3>
+<table>
+<thead>
+<tr>
+<th>模式</th>
+<th>耗电</th>
+<th>做什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Active（运行）</strong></td>
+<td>几十到几百 mA</td>
+<td>CPU 全速运行，所有外设开启</td>
+</tr>
+<tr>
+<td><strong>Sleep（睡眠）</strong></td>
+<td>几 mA</td>
+<td>CPU 暂停，保留 RAM，快速唤醒</td>
+</tr>
+<tr>
+<td><strong>Deep Sleep（深度睡眠）</strong></td>
+<td>几十 μA</td>
+<td>CPU 关闭，只留 RTC 和唤醒逻辑</td>
+</tr>
+<tr>
+<td><strong>Wakeup Source（唤醒源）</strong></td>
+<td>—</td>
+<td>按键、定时器、中断事件可以把设备&quot;叫醒&quot;</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>PM 视角：</strong> 交互式 AI 产品的核心体验和续航的平衡：响应要快（不能等太久醒来）vs 续航要长。典型妥协方案是 <strong>&quot;按需唤醒&quot;</strong>——用户在说话前先按一下或触摸一下唤醒，而不是持续监听。</p>
+</blockquote>
+<h3 id="调试接口pm-也要会用">调试接口（PM 也要会用）</h3>
+<p><strong>UART（串口）</strong>—— 嵌入式最基础的调试接口，用来打印日志。PM 应该学会用串口工具（如 Putty）看设备日志。当设备出问题时，串口日志是排查问题最快的方式。</p>
+<blockquote>
+<p><strong>关键问题：</strong> 设备有没有留 UART 测试点？量产时有没有关闭调试日志？（调试日志会泄露信息）</p>
+</blockquote>
+<p><strong>SWD（串行调试接口）</strong>—— ARM 芯片的调试接口，比 UART 更强大，可以单步断点调试。PM 不需要会用，但要知道这个接口存在——出 bug 时工程师可以用它深入定位。</p>
+<blockquote>
+<p><strong>关键问题：</strong> 量产后 SWD 接口有没有禁用？（防止黑客通过 SWD 读取固件或改写设备）</p>
+</blockquote>
+<hr>
+<h2 id="六ai-语音全链路">六、AI 语音全链路</h2>
+<p>AI 语音产品的完整处理链路：</p>
+<pre><code>用户说&quot;小X小X&quot; → 唤醒词检测（本地） → ASR 语音识别 → LLM 理解 → TTS 合成回复 → 扬声器播放
+                          ↓ 网络异常时
+                    降级方案（离线 ASR + 有限对话）
+</code></pre>
+<h3 id="61-asr语音识别-怎么听懂用户说话">6.1 ASR（语音识别）—— 怎么听懂用户说话</h3>
+<p><strong>唤醒词 vs 命令词 vs 自然语言</strong></p>
+<table>
+<thead>
+<tr>
+<th>层次</th>
+<th>做什么</th>
+<th>典型方式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>唤醒词</strong></td>
+<td>设备持续监听，听到&quot;小X小X&quot;才开始工作</td>
+<td>本地（离线），功耗 ≤ 几 mW</td>
+</tr>
+<tr>
+<td><strong>命令词识别</strong></td>
+<td>只能识别固定的短语（&quot;开灯&quot;、&quot;关空调&quot;）</td>
+<td>本地或云端</td>
+</tr>
+<tr>
+<td><strong>自然语言识别</strong></td>
+<td>识别任意句子（&quot;帮我查一下明天天气，顺便提醒我下午三点开会&quot;）</td>
+<td>通常是云端（需要大模型）</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>PM 视角：</strong> AI 玩具的主流方案：<strong>本地唤醒词 + 云端自然语言 ASR + 离线降级</strong>。唤醒词在本地做（不耗电、不依赖网络），唤醒后的对话发到云端做自然语言理解，网络不好时切到本地命令词模式。</p>
+<p><strong>关键问题：</strong></p>
+<ul>
+<li>唤醒率的误唤醒率是多少（次/小时）？有没有用户反馈&quot;叫不醒&quot;？</li>
+<li>唤醒后的识别是自然语言还是命令词？为什么？</li>
+<li>网络不好时，ASR 有没有降级方案？用户体验落差大吗？</li>
+</ul>
+</blockquote>
+<p><strong>本地 ASR vs 云端 ASR</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>本地 ASR</th>
+<th>云端 ASR</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>准确率</td>
+<td>一般（85-90%）</td>
+<td>高（95%+）</td>
+</tr>
+<tr>
+<td>响应速度</td>
+<td>快（实时）</td>
+<td>取决于网络</td>
+</tr>
+<tr>
+<td>依赖网络</td>
+<td>❌ 不需要</td>
+<td>✅ 需要</td>
+</tr>
+<tr>
+<td>功耗</td>
+<td>高（NPU/CPU 在做推理）</td>
+<td>低（只上传音频流）</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>PM 视角：</strong> AI 玩具建议云端 ASR 为主，离线 ASR 为降级方案。PM 要<strong>明确告诉用户有网和没网时产品分别能做什么</strong>，不要让用户&quot;喊了半天没反应&quot;才发现没网。</p>
+</blockquote>
+<h3 id="62-tts语音合成-怎么说话给用户听">6.2 TTS（语音合成）—— 怎么说话给用户听</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>离线 TTS</th>
+<th>云端 TTS</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>响应速度</td>
+<td>快（毫秒级）</td>
+<td>慢（几百毫秒到几秒）</td>
+</tr>
+<tr>
+<td>音色自然度</td>
+<td>一般（机器人感强）</td>
+<td>自然（接近真人）</td>
+</tr>
+<tr>
+<td>音色丰富度</td>
+<td>有限（预置音色）</td>
+<td>丰富（多种选择）</td>
+</tr>
+<tr>
+<td>成本</td>
+<td>一次性 Flash 占用</td>
+<td>每次调用按量计费</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>PM 视角：</strong> AI 玩具建议云端 TTS 为主，离线 TTS 为降级方案。如果产品需要&quot;人格感&quot;（比如特定角色的声音），云端 TTS 的音色自然度是必不可少的。</p>
+</blockquote>
+<p><strong>音色克隆（Voice Cloning）：</strong> 用少量语音样本（比如爸爸妈妈读一段故事）克隆某个人的声音。如果产品有&quot;用爸爸妈妈的声音讲故事&quot;的功能，需要音色克隆技术。</p>
+<blockquote>
+<p><strong>关键问题：</strong> 音色克隆需要用户录多少句话？克隆效果自然吗？</p>
+</blockquote>
+<p><strong>TTS 断句与韵律：</strong> TTS 的停顿、语调、情绪直接影响产品的&quot;人格感&quot;。PM 应该和 TTS 团队一起调校提示词和标点策略。</p>
+<blockquote>
+<p><strong>关键问题：</strong> TTS 输出有没有加标点符号引导断句？情绪表达够不够自然？</p>
+</blockquote>
+<h3 id="63-llm大语言模型-怎么理解用户意图并生成回复">6.3 LLM（大语言模型）—— 怎么理解用户意图并生成回复</h3>
+<p><strong>端侧 LLM vs 云端 LLM</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>端侧 LLM</th>
+<th>云端 LLM</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>响应速度</td>
+<td>实时（毫秒级）</td>
+<td>1-3 秒（网络延迟）</td>
+</tr>
+<tr>
+<td>隐私</td>
+<td>✅ 数据不上云</td>
+<td>❌ 数据上传</td>
+</tr>
+<tr>
+<td>模型能力</td>
+<td>有限（小模型，几 B 参数）</td>
+<td>强大（几百 B 参数）</td>
+</tr>
+<tr>
+<td>硬件要求</td>
+<td>需要带 NPU 的高端 SoC</td>
+<td>普通芯片即可（只做通信）</td>
+</tr>
+<tr>
+<td>当前成熟度</td>
+<td>⚠️ 发展中，能力有限</td>
+<td>✅ 成熟，但每次调用要钱</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>PM 视角：</strong> AI 玩具当前主流是云端 LLM。端侧 LLM 是未来方向（随着芯片算力提升），但 2025-2026 年端侧能跑的小模型能力和云端 GPT 级别的差距还很大。</p>
+</blockquote>
+<p><strong>Prompt 工程（提示词设计）：</strong> 通过设计系统提示词来塑造 LLM 的回答风格和能力。这是 PM 能直接发力的地方——好的 Prompt 能让产品人格更鲜明、回答更安全。</p>
+<blockquote>
+<p><strong>关键问题：</strong></p>
+<ul>
+<li>系统 Prompt 有没有做过版本管理？A/B 测试过不同 Prompt 的效果吗？</li>
+<li>对话上下文保留多少轮？长对话会不会丢失重要信息？</li>
+<li>有没有做敏感词过滤？不当回答的兜底话术是什么？</li>
+</ul>
+</blockquote>
+<p><strong>内容安全：</strong> 儿童产品必须重视 LLM 内容安全。不当回答可能涉及色情、暴力、隐私泄露等。PM 和算法团队一起设计安全围栏。</p>
+<p><strong>PM 要问算法团队的问题：</strong></p>
+<ol>
+<li>敏感词过滤做了吗？召回率多少？（有没有漏放的危险内容？）</li>
+<li>如果 LLM 回答了不安全的内容，兜底话术是什么？</li>
+<li>有没有人工审核机制？发现不良内容后怎么阻断？</li>
+</ol>
+<hr>
+<h2 id="附录pm-快速对话指南">附录：PM 快速对话指南</h2>
+<table>
+<thead>
+<tr>
+<th>工程师说</th>
+<th>翻译</th>
+<th>PM 回应</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&quot;这个器件要走 DIP&quot;</td>
+<td>不能用自动贴片机焊接</td>
+<td>能换成 SMT 兼容的型号吗？</td>
+</tr>
+<tr>
+<td>&quot;Flash 打满了&quot;</td>
+<td>存储空间用完，加不了功能了</td>
+<td>砍功能或换更大 Flash 的芯片</td>
+</tr>
+<tr>
+<td>&quot;ASR 要加双麦阵列&quot;</td>
+<td>需要一个额外麦克风 + 信号处理芯片</td>
+<td>增加多少成本？拾音距离能提升多少？</td>
+</tr>
+<tr>
+<td>&quot;端侧 LLM 跑不动&quot;</td>
+<td>这个芯片算力不够</td>
+<td>那用云端 LLM，离线时降级做什么？</td>
+</tr>
+<tr>
+<td>&quot;AEC 还没调好&quot;</td>
+<td>回声消除算法没做完</td>
+<td>预计什么时候调通？没 AEC 之前能临时关闭语音交互吗？</td>
+</tr>
+<tr>
+<td>&quot;OTA AB 分区需要双倍 Flash&quot;</td>
+<td>安全升级方案会吃掉一半的 Flash 容量</td>
+<td>那我们的 Flash 选型是不是要大一倍？成本影响多少？</td>
+</tr>
+<tr>
+<td>&quot;SRRC 认证要 8 周&quot;</td>
+<td>无线电认证需要时间</td>
+<td>这是我们排期的关键路径，能不能提前送测？</td>
 </tr>
 </tbody></table>
 </div></div>
