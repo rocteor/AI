@@ -60,6 +60,7 @@ function tabName(f) {
     'embedded-lab-guide.md': '动手实验室',
     'embedded-product-guide.md': '产品经理指南',
   'embedded-cases.md': '案例拆解',
+  'pm-cheatsheet.md': 'PM 速查',
   'interview-prep.md': '面试指南',
   };
   return map[f] || f.replace(/\\\.md$/, '').replace(/^\\d+[-_]?/, '').replace(/[-_]/g, ' ');
