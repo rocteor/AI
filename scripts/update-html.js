@@ -61,6 +61,7 @@ function tabName(f) {
     'embedded-product-guide.md': '产品经理指南',
   'embedded-cases.md': '案例拆解',
   'pm-cheatsheet.md': 'PM 速查',
+  'ai-hardware-pm.md': 'AI+硬件',
   'interview-prep.md': '面试指南',
   };
   return map[f] || f.replace(/\\\.md$/, '').replace(/^\\d+[-_]?/, '').replace(/[-_]/g, ' ');
